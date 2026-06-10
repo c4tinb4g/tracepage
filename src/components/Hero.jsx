@@ -8,10 +8,10 @@ function Hero() {
         muted
         playsInline
       >
-        <source
-          src="/videos/280649_chriange.mp4"
-          type="video/mp4"
-        />
+<source
+  src={`${import.meta.env.BASE_URL}videos/280649_chriange.mp4`}
+  type="video/mp4"
+/>
       </video>
 
       <div className="hero-content">
